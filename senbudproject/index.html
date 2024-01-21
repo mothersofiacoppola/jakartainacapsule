@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Seni Budaya</title>
+    <link rel="stylesheet" type="text/css" href="Untitled-2.css">
+
+        <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!---nanti font input disini--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+
+        <!---header design--->
+        <header>
+            <ul class="navlist">
+                
+                <li><a href="#cuisine">Cuisine</a></li>
+                <li><a href="#Landmarks">Landmarks</a></li>
+                <li><a href="#house" class="active"><i class='bx bx-home-heart'></i></a></li>
+                <li><a href="#museums">Museums</a></li>
+                <li><a href="#shopping">Shopping</a></li>
+            </ul>
+
+            <div class="bx bx-menu" id="menu-icon">
+
+            </div>
+        </header>
+        
+        <!---home section design--->
+        <section class="house" id="house">
+            <img src="img/Untitled_Artwork (1).png" id="hill">
+            <h2 id="text">Jakarta in a <span>capsule</span></h2>
+        </section>
+
+        <!---cuisine section design---> 
+        <div class="manny" id="manny">
+            <h2><span>Cuisine</span> in a capsule</h2>
+        </div>
+        <section class="cuisine" id="cuisine">
+            <div class="cuisine-img">
+                <img src="img/Ragusa color.png">
+            </div>
+            <div class="cuisine-text">
+                <h2 data-aos="fade-left" data-aos-duration="1700">Es Krim Ragusa</h2>
+                <h4 data-aos="fade-left" data-aos-duration="1700">Jakarta Pusat</h4>
+                <p data-aos="fade-left" data-aos-duration="1700">Ragusa Italian Ice Cream merupakan toko es krim yang legendaris dan tertua di Jakarta. Toko es krim ini telah berdiri sejak 1932 dan sangat bersejarah. Awalnya toko ini didirikan oleh Ragusa dan Vincenzo di Bandung dan hanya ada di Jakarta setahun sekali. Namun setelah puluhan tahun, Ragusa bersaudara itu memutuskan untuk berhenti berjualan es krim dan memberikan toko tersebut ke karyawannya yaitu Guntoro. Ragusa Italian Ice Cream berlokasi di Jalan Veteran I nomor 10, Jakarta Pusat. Jangan tertipu! Toko ini tidak memiliki cabang dimanapun. Toko ini buka setiap hari pukul 10.00-21.00 WIB. Menu yang terkenal di Ragusa adalah Spaghetti Ice Cream. Harga-harga es krimnya berkisar Rp 20,000- Rp 40,000.
+                </p>
+            </div>
+            <div class="cuisine-text2">
+                <h2 data-aos="fade-right" data-aos-duration="1700">Kopi Es Tak Kie
+                </h2>
+                <h4 data-aos="fade-right" data-aos-duration="1700">Jakarta Barat</h4>
+                <p data-aos="fade-right" data-aos-duration="1700">Kopi Es Tak Kie merupakan toko kopi susu yang sudah lama ada di ibu kota. Toko ini berdiri di tahun 1927. Awalnya menu utamanya adalah teh dan bubur. Namun seiringnya perubahan zaman, kini menu utamanya adalah kopi. Toko kopi ini terletak di Gang Gloria, Glodok, Jakarta Barat. Harga kopinya bisa dibilang murah, hanya dibawah Rp 30,000. Kini Kopi Es Tak Kie ini memiliki cabang di Lippo Mall Puri, Living World Alam Sutera, dan Citywalk Gajah Mada.
+                </p>
+            </div>
+            <div class="cuisine-img2">
+                <img src="img/Kopi color.png">
+            </div>
+            <div class="cuisine-img3">
+                <img src="img/Jakut color.png">
+            </div>
+            <div class="cuisine-text">
+                <h2 data-aos="fade-left" data-aos-duration="1700">Soto Betawi Bang Sawit
+                </h2>
+                <h4 data-aos="fade-left" data-aos-duration="1700">Jakarta Utara</h4>
+                <p data-aos="fade-left" data-aos-duration="1700">Soto betawi adalah salah satu makanan khas dari Jakarta. Soto betawi dapat ditemukan hampir di setiap daerah Jakarta. Salah satu restoran soto betawi yang terkenal adalah Soto Betawi Bang Sawit. Restoran ini terletak di Jl. Boulevard Raya no 11, Kelapa Gading. Restorannya dihiasi lampu yang kuno dan jendela kayu. Soto juga disajikan dengan mangkuk besi beserta tungku yang menyala dibawahnya. Terdapat berbagai variasi daging yang bisa kalian pilih untuk soto kalian.
+                </p>
+            </div>
+            <script>
+                let text= document.getElementById('text');
+                let hill = document.getElementById('hill');
+
+                window.addEventListener('scroll', function(){
+                    let value = window.scrollY;
+                    text.style.marginTop = value * 2.5 + 'px';
+                })
+        </script>
+        </section>
+
+        <!---landmarks page design-->
+        <div class="broski" id="broski">
+            <h2><span>Landmarks</span> in a capsule</h2>
+        </div>
+        <section class="Landmarks" id="Landmarks">
+            <div class="Landmarks-img">
+                <img src="img/Dufan color.png">
+            </div>
+            <div class="Landmarks-text">
+                <h2 data-aos="fade-left" data-aos-duration="1700">Dunia Fantasi</h2>
+                <h4 data-aos="fade-left" data-aos-duration="1700">Jakarta Utara</h4>
+                <p data-aos="fade-left" data-aos-duration="1700">Dufan adalah sebuah taman hiburan yang 
+                    terletak di Ancol, Jakarta Utara, Indonesia. Dufan menawarkan berbagai wahana permainan, 
+                    atraksi, dan pertunjukan untuk pengunjung segala usia. Dengan konsep taman bermain yang 
+                    menyenangkan dan beragam, Dufan menjadi salah satu destinasi rekreasi populer di Indonesia.
+                </p>
+            </div>
+            <div class="Landmarks-text2">
+                <h2 data-aos="fade-right" data-aos-duration="1700">Museum Fatahillah</h2>
+                <h4 data-aos="fade-right" data-aos-duration="1700">Jakarta Barat</h4>
+                <p data-aos="fade-right" data-aos-duration="1700">Museum Fatahillah, juga dikenal 
+                    sebagai Museum Sejarah Jakarta, terletak di Kota Tua Jakarta. Bangunan ini awalnya 
+                    adalah balai kota pada masa penjajahan Belanda. Saat ini, museum ini menyajikan koleksi
+                     artefak dan benda-benda bersejarah yang mencerminkan perjalanan sejarah Jakarta dari masa
+                      kolonial hingga kemerdekaan. Pengunjung dapat mengeksplorasi ruang-ruang pameran yang
+                       menampilkan potongan-potongan sejarah yang kaya dan beragam.
+                </p>
+            </div>
+            <div class="Landmarks-img2">
+                <img src="img/Fatahila color.png">
+            </div>
+            <div class="Landmarks-img3">
+                <img src="img/patung bundaran HI color.png">
+            </div>
+            <div class="Landmarks-text">
+                <h2 data-aos="fade-left" data-aos-duration="1700">Patung Bundaran HI</h2>
+                <h4 data-aos="fade-left" data-aos-duration="1700">Jakarta Pusat</h4>
+                <p data-aos="fade-left" data-aos-duration="1700">Patung Bundaran HI 
+                    merupakan ikon terkenal Jakarta yang terletak di pusat kota, tepatnya 
+                    di Bundaran Hotel Indonesia. Patung ini menggambarkan semangat kemerdekaan
+                     Indonesia dengan pahlawan nasional Soekarno dan Mohammad Hatta yang sedang 
+                     proklamasi kemerdekaan. Bundaran HI menjadi salah satu landmark yang ikonik dan 
+                     sering dijadikan tempat pertemuan atau titik orientasi di tengah pusat bisnis dan 
+                     kegiatan sosial Jakarta.</p>
+            </div>
+        </section>
+        
+        <!---museums section design-->
+        <section class="museums" id="museums">
+            <div class="main-text">
+                <h2><span>Museums</span> in a capsule</h2>
+            </div>
+
+            <div class="museums-content">
+                <div class="grah">
+                    <img src="img/Galeri Sophilia color.png">
+                     <div class="meow">
+                        <h5>Galeri Sophilia</h5>
+                        <h9>Jakarta Utara</h9>
+                        <p>Galeri Sophilia terkenal karena menyimpan koleksi lukisan klasik dari Eropa dan menampilkan benda seni kuno yang menjadi peninggalan berapa ratus tahun lalu dari China. Terdapat replika karya seni Renaissance, Baroque, Neoclassic, hingga modern. 
+                        </p>
+                     </div>
+                </div>
+
+                <div class="grah">
+                    <img src="img/Museum macan color.png">
+                     <div class="meow">
+                        <h5>Museum Macan</h5>
+                        <h9>Jakarta Barat</h9>
+                        <p>Museum of Modern and Contemporary Art in Nusantara, Museum Macan menawarkan program publik dan pameran yang dinamis penuh karya-karya kontemporer sekaligus untuk memberikan pendidikan seni kepada masyarakat. Salah satu karya yang paling terkenal diantara yang lain adalah instalasi Yayoi Kusuma.
+                        </p>
+                     </div>
+                </div>
+
+                <div class="grah">
+                    <img src="img/Museum Tekstil color.png">
+                     <div class="meow">
+                        <h5>Museum Tekstil</h5>
+                        <h9>Jakarta Pusat</h9>
+                        <p>Museum Tekstil berdiri sejak tanggal 28 Juni 1976, di Palmerah. Museum ini tercatat menyimpan 1914 koleksi kain batik, kain tenun, koleksi campuran, serta busana dan tekstil kontemporer. 
+                        </p>
+                     </div>
+                </div>
+            </div>
+
+        </section>
+        <!---shopping section design-->
+        <section class="shopping" id="shopping">
+            <div class="main-text">
+                <h2><span>Shopping Centers</span> in a capsule</h2>
+            </div>
+
+            <div class="shopping-content">
+                <div class="row">
+                    <img src="img/GI color.png">
+                     <div class="layer">
+                        <h5>Mall Grand Indonesia</h5>
+                        <h9>Jakarta Pusat</h9>
+                        <p>Mall Grand Indonesia, pusat perbelanjaan ikonik di jantung Jakarta, adalah destinasi gaya hidup terkemuka sejak tahun 2007. Dengan desain arsitektur megah, mall ini menawarkan berbagai merek internasional, butik eksklusif, dan pilihan kuliner yang beragam. Selain itu, Grand Indonesia juga menyediakan fasilitas hiburan modern, seperti bioskop dan pusat kebugaran. Dengan suasana dinamis dan sering menjadi tuan rumah acara khusus, mall ini tidak hanya tempat untuk berbelanja, tetapi juga tempat berkumpul dan menikmati gaya hidup urban.
+                        </p>
+                     </div>
+                </div>
+
+                <div class="row">
+                    <img src="img/HUB LIFE + NEO SOHO color.png">
+                     <div class="layer">
+                        <h5>Mall HubLife</h5>
+                        <h9>Jakarta Barat</h9>
+                        <p>Mall HubLife, terletak di Tanjung Duren, Jakarta Barat, adalah destinasi perbelanjaan dan kuliner dengan gaya hidup modern. Dengan arsitektur semi outdoor dan futuristik, HubLife menciptakan lingkungan yang mengundang untuk bersosialisasi, berbelanja, dan menikmati pengalaman gaya hidup unik. Mall ini juga terhubung dengan lebih dari 3.700 unit apartemen di Taman Anggrek Residences dan menjadi tempat berkumpul bagi para pemuda yang aktif dan kreatif.</p>
+                     </div>
+                </div>
+
+                <div class="row">
+                    <img src="img/jakutpik.png">
+                     <div class="layer">
+                        <h5>Mall PIK Avenue</h5>
+                        <h9>Jakarta Utara</h9>
+                        <p>Mall PIK Avenue, terletak di Pantai Indah Kapuk, Jakarta Utara, adalah destinasi perbelanjaan dan gaya hidup modern yang memukau. Dengan arsitektur futuristik dan atmosfer santai, mall ini menawarkan berbagai toko butik, merek fashion, dan pilihan kuliner yang beraneka ragam. Dengan suasana yang ramah dan gaya yang trendi, PIK Avenue adalah tempat ideal untuk bersantai, berbelanja, dan bersosialisasi sejak 2016.
+                        </p>
+                     </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!---custom js design--->
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset:1
+          });
+        </script>
+    </body>
+</html>
